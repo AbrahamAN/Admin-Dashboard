@@ -1,6 +1,6 @@
 {
+  "cSpell.words": ["Kanban", "Shopware", "syncfusion"],
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#c1c83a"
-  },
-  "cSpell.words": ["Kanban", "Shopware", "syncfusion"]
+    "titleBar.activeBackground": "#3017a6"
+  }
 }
