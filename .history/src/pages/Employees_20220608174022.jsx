@@ -6,7 +6,6 @@ import {
   ColumnDirective,
   Search,
   Page,
-  Toolbar,
 } from "@syncfusion/ej2-react-grids";
 
 import { employeesData, employeesGrid } from "../data/dummy";
@@ -21,7 +20,6 @@ const Employees = () => {
         width="auto"
         allowPaging
         allowSorting
-        toolbar={["Search"]}
       >
         <ColumnsDirective>
           {/* eslint-disable-next-line react/jsx-props-no-spreading */}
@@ -29,7 +27,7 @@ const Employees = () => {
             <ColumnDirective key={index} {...item} />
           ))}
         </ColumnsDirective>
-        <Inject services={[Search, Page, Toolbar]} />
+        <Inject services={[Search, Page]} />
       </GridComponent>
     </div>
   );

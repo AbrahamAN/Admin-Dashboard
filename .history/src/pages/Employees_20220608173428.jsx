@@ -17,6 +17,7 @@ import {
 
 import { ordersData, contextMenuItems, ordersGrid } from "../data/dummy";
 import { Header } from "../components";
+import { Employees } from ".";
 
 const Orders = () => {
   return (
@@ -52,4 +53,4 @@ const Orders = () => {
   );
 };
 
-export default Orders;
+export default Employees;
