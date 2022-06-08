@@ -47,9 +47,7 @@ const Ecommerce = () => {
               </button>
               <p className="mt-3">
                 <span className="text-lg font-semibold"> {item.amount}</span>
-                <span className={`text-sm text-${item.pcColor} ml-2`}>
-                  {item.percentage}
-                </span>
+                <span className={`text-sm} ml-2`}>{item.percentage}</span>
               </p>
               <p className="text-sm text-gray-400 mt-1">{item.title}</p>
             </div>
@@ -113,10 +111,6 @@ const Ecommerce = () => {
                   borderRadius="10px"
                 />
               </div>
-            </div>
-
-            <div className="">
-              <Stacked width="320px" height="360" />
             </div>
           </div>
         </div>

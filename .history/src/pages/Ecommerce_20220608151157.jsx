@@ -116,7 +116,7 @@ const Ecommerce = () => {
             </div>
 
             <div className="">
-              <Stacked width="320px" height="360" />
+              <Stacked width="320px" />
             </div>
           </div>
         </div>

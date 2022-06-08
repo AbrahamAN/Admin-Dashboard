@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["Kanban", "Shopware", "syncfusion"],
+  "cSpell.words": [
+    "Kanban",
+    "Primitivedot",
+    "semibold",
+    "Shopware",
+    "Sparkline",
+    "syncfusion"
+  ],
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#c78592"
   }
