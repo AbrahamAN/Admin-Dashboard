@@ -2,6 +2,8 @@ import React from "react";
 
 import {
   ScheduleComponent,
+  ViewsDirective,
+  ViewDirective,
   Day,
   Week,
   WorkWeek,

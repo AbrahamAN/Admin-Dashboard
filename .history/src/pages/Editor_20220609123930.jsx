@@ -18,7 +18,7 @@ const Editor = () => {
       <Header category="App" title="Editor" />
       <RichTextEditorComponent>
         <EditorData />
-        <Inject services={[HtmlEditor, Image, Link, QuickToolbar, Toolbar]} />
+        <Inject services={[HtmlEditor, Image, Link, QuickToolbar]} />
       </RichTextEditorComponent>
     </div>
   );
