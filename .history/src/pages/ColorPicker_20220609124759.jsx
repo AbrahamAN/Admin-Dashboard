@@ -4,8 +4,9 @@ import { ColorPickerComponent } from "@syncfusion/ej2-react-inputs";
 import { Header } from "../components";
 
 const change = (args) => {
-  document.getElementById("preview").style.backgroundColor =
-    args.currentValue.hex;
+  document.getElementById("preview").style.backgroundColor = (
+    <args className="currentValue hex"></args>
+  );
 };
 
 const ColorPicker = () => {
@@ -23,7 +24,6 @@ const ColorPicker = () => {
               modeSwitcher={false}
               inline
               showButtons={false}
-              change={change}
             />
           </div>
           <div>
@@ -34,7 +34,6 @@ const ColorPicker = () => {
               modeSwitcher={false}
               inline
               showButtons={false}
-              change={change}
             />
           </div>
         </div>
